@@ -1,0 +1,102 @@
+# COVID-19 Global Data Analysis | Power BI
+
+## 📌 Project Overview
+This project analyzes global COVID-19 trends using day-to-day country-wise data.  
+The goal is to explore confirmed cases, deaths, recoveries, and active cases over time and present insights through an interactive Power BI dashboard.
+
+The analysis focuses on:
+- Time-series trends of COVID-19 cases
+- Country-wise comparison of confirmed, deaths, and recovery rates
+- Identification of highly impacted regions
+
+---
+
+## 🗂 Dataset
+**Source:** Public COVID-19 global dataset  
+**File Used:** `full_grouped.csv`
+
+### Key Columns:
+- Date  
+- Country/Region  
+- Confirmed  
+- Deaths  
+- Recovered  
+- Active  
+- New cases  
+- New deaths  
+
+The dataset contains daily COVID-19 statistics across multiple countries.
+
+---
+
+## 🛠 Tools & Technologies
+- **Power BI**
+- **Power Query (Data Cleaning & Transformation)**
+- **DAX (Calculated Measures)**
+- **CSV Dataset**
+
+---
+
+## 🧹 Data Cleaning & Preparation
+Data cleaning was performed using **Power Query**:
+- Converted columns to appropriate data types
+- Renamed columns for clarity
+- Handled null values by replacing them with zeros
+- Removed duplicate records
+- Sorted data by date
+- Created additional columns (Year, Month) for time-based analysis
+- Validated data consistency for confirm
+## 📐 DAX Measures Created
+- Total Confirmed Cases  
+- Total Deaths  
+- Total Recovered  
+- Active Cases  
+- Death Rate (%)  
+
+These measures enabled accurate KPI calculations and dynamic visuals.
+
+---
+
+## 📊 Dashboard Features
+The Power BI dashboard includes:
+- KPI cards showing total confirmed, deaths, recovered, and active cases
+- Line chart for COVID-19 trends over time
+- Bar chart displaying top affected countries
+- Map visualization for country-wise case distribution
+- Interactive slicers for country and date selection
+
+---
+
+## 🔍 Key Insights
+- Significant spikes in confirmed cases during early pandemic phases
+- Variation in death rates across countries
+- Recovery trends improved over time in several regions
+- Certain countries consistently reported higher active cases
+
+---
+
+## 📸 Dashboard Preview
+*(Add screenshots of your Power BI dashboard here)*
+
+---
+
+## 🚀 How to Use
+1. Download the dataset (`full_grouped.csv`)
+2. Open the `.pbix` file in Power BI Desktop
+3. Refresh data if required
+4. Interact with slicers to explore country-wise and time-based trends
+
+---
+
+## 📎 Project Outcome
+This project demonstrates strong skills in:
+- Data cleaning and transformation
+- Data modeling and DAX
+- Dashboard design and storytelling
+- Analytical thinking using real-world datasets
+
+---
+
+## 🔗 Author
+Moataz Aboelmagd  
+📫 LinkedIn: https://www.linkedin.com/in/moataz-bellah-mahmoud/?locale=en_US  

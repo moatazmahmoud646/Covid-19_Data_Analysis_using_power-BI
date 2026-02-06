@@ -31,14 +31,13 @@ The dataset contains daily COVID-19 statistics across multiple countries.
 
 ## 🛠 Tools & Technologies
 - **Power BI**
-- **Power Query (Data Cleaning & Transformation)**
 - **DAX (Calculated Measures)**
 - **CSV Dataset**
 
 ---
 
 ## 🧹 Data Cleaning & Preparation
-Data cleaning was performed using **Power Query**:
+
 - Converted columns to appropriate data types
 - Renamed columns for clarity
 - Handled null values by replacing them with zeros
